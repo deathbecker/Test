@@ -1,0 +1,36 @@
+body{
+	background-image:url(http://images.designtrends.com/wp-content/uploads/2016/03/29094721/Anime-Desktop-Wallpaper.jpg);
+	background-size:cover;
+}
+p {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: middle;
+}
+
+li a {
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: red;
+}
